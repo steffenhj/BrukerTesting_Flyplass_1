@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Flyplass_BrukerTesting
-build_property.ProjectDir = C:\Users\Steff\source\repos\Flyplass_BrukerTesting\Flyplass_BrukerTesting\
+build_property.ProjectDir = C:\Net Kode fra forelesning\brukertesting\BrukerTesting_Flyplass_1\Flyplass_BrukerTesting\Flyplass_BrukerTesting\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

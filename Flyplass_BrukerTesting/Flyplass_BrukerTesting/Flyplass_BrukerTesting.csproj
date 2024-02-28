@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="FlyPlassLibrary">
+      <HintPath>..\..\..\..\..\Users\Fyren\source\repos\KulGruppe2\FlyPlassLibrary\bin\Debug\net8.0\FlyPlassLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

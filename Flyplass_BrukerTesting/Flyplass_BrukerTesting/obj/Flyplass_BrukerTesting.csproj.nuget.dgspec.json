@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Steff\\source\\repos\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting.csproj": {}
+    "C:\\Net Kode fra forelesning\\brukertesting\\BrukerTesting_Flyplass_1\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Steff\\source\\repos\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting.csproj": {
+    "C:\\Net Kode fra forelesning\\brukertesting\\BrukerTesting_Flyplass_1\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Steff\\source\\repos\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting.csproj",
+        "projectUniqueName": "C:\\Net Kode fra forelesning\\brukertesting\\BrukerTesting_Flyplass_1\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting.csproj",
         "projectName": "Flyplass_BrukerTesting",
-        "projectPath": "C:\\Users\\Steff\\source\\repos\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting.csproj",
-        "packagesPath": "C:\\Users\\Steff\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Steff\\source\\repos\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting\\obj\\",
+        "projectPath": "C:\\Net Kode fra forelesning\\brukertesting\\BrukerTesting_Flyplass_1\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting.csproj",
+        "packagesPath": "C:\\Users\\Fyren\\.nuget\\packages\\",
+        "outputPath": "C:\\Net Kode fra forelesning\\brukertesting\\BrukerTesting_Flyplass_1\\Flyplass_BrukerTesting\\Flyplass_BrukerTesting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Steff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fyren\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
