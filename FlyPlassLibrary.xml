@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FlyPlassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:FlyPlassLibrary.Airport">
+            <summary>
+            Information of airport
+            </summary>
+        </member>
+        <member name="P:FlyPlassLibrary.Airport.history">
+            <summary>
+            Information of a planes history
+            </summary>
+        </member>
+        <member name="M:FlyPlassLibrary.Airport.#ctor(System.String)">
+            <summary>
+            Constructor for airport
+            </summary>
+            <param name="AirportName">Name of airport</param>
+        </member>
+        <member name="M:FlyPlassLibrary.Airport.AddPlane(FlyPlassLibrary.Plane)">
+            <summary>
+            Adding plane
+            </summary>
+            <param name="plane">Add plane to airport</param>
+        </member>
+        <member name="M:FlyPlassLibrary.Airport.GetHistory">
+            <summary>
+            History of plane
+            </summary>
+            <returns>History of planes events</returns>
+        </member>
+        <member name="M:FlyPlassLibrary.Airport.AddFlight(FlyPlassLibrary.Flight)">
+            <summary>
+            Added flights
+            </summary>
+            <param name="flight">Adding flights to airport</param>
+        </member>
+        <member name="M:FlyPlassLibrary.Airport.GetFlights">
+            <summary>
+            Gets information of flights
+            </summary>
+            <returns>Flights of airport</returns>
+        </member>
+        <member name="M:FlyPlassLibrary.Airport.AddRunway(FlyPlassLibrary.Runway)">
+            <summary>
+            Adding runway to airport
+            </summary>
+            <param name="runway">Adding runway to airport</param>
+        </member>
+        <member name="M:FlyPlassLibrary.Airport.RemoveRunway(FlyPlassLibrary.Runway)">
+            <summary>
+            Removing runway
+            </summary>
+            <param name="runway">Removing runway from airport</param>
+        </member>
+        <member name="T:FlyPlassLibrary.Flight">
+            <summary>
+            Class to create flight 
+            </summary>
+        </member>
+        <member name="M:FlyPlassLibrary.Flight.#ctor(System.String,FlyPlassLibrary.Plane,System.DateTime,System.DateTime,FlyPlassLibrary.ScheduleType)">
+            <summary>
+            Constructor for Flight class
+            </summary>
+            <param name="destinasjon">Flight destination</param>
+            <param name="arrivalTime">Flight arrival time</param>
+            <param name="departureTime">Flight departure time</param>
+            <param name="assignedPlane">The assigned plane for the flight</param>
+        </member>
+        <member name="T:FlyPlassLibrary.gateState">
+            <summary>
+            Shows information about a gate`s state
+            </summary>
+        </member>
+        <member name="T:FlyPlassLibrary.Gate">
+            <summary>
+            Information of a gate
+            </summary>
+        </member>
+        <member name="T:FlyPlassLibrary.Gate.GateType">
+            <summary>
+            Shows information about a gate`s type
+            </summary>
+            <param name="planeprivate">Value to set plane to private plane</param>
+            <param name="planepassanger">Sets plane to passanger plane</param>
+            <param name="planecargo">Sets plane to cargo plane</param>
+        </member>
+        <member name="M:FlyPlassLibrary.Gate.#ctor(System.String,FlyPlassLibrary.Gate.GateType)">
+            <summary>
+            Contructor for Gate class
+            </summary>
+            <param name="gateName">Name of gate</param>
+            <param name="gateType">Type of gate, compatible with private, passanger or cargo planes</param>
+        </member>
+        <member name="T:FlyPlassLibrary.PlaneType">
+            <summary>
+            Describes type of plane
+            </summary>
+        </member>
+        <member name="T:FlyPlassLibrary.PlanePosition">
+            <summary>
+            Describes postition of plane
+            </summary>
+        </member>
+        <member name="T:FlyPlassLibrary.planeState">
+            <summary>
+            Describes state of plane
+            </summary>
+        </member>
+        <member name="T:FlyPlassLibrary.Plane">
+            <summary>
+            Information of plane
+            </summary>
+        </member>
+        <member name="M:FlyPlassLibrary.Plane.#ctor(FlyPlassLibrary.Airport,System.DateTime,System.String,System.Int32,FlyPlassLibrary.PlaneType,FlyPlassLibrary.PlanePosition,FlyPlassLibrary.planeState)">
+            <summary>
+            Constructor for Plane class
+            </summary>
+            <param name="PlaneId">Model of the plane</param>
+            <param name="model">Model of the plane</param>
+            <param name="capacity">Capacity of the plane in the amount of passangers for private- and passangerplane and max weight of cargo in cargoplane</param>
+            <param name="planeType">Type of plane, passanger, private or cargo</param>
+            <param name="currentPlanePosition">Current posistion of the plane</param>
+            <param name="currentPlaneState">State of plane, readyForTakeOff, flying, loadingPassangers, unloadingPassangers, idle, taxiing</param>
+            <param name="airport">airport</param>
+        </member>
+        <member name="M:FlyPlassLibrary.Plane.SaveHistory(FlyPlassLibrary.PlanePosition,FlyPlassLibrary.planeState,System.DateTime,FlyPlassLibrary.Airport)">
+            <summary>
+            History of plane
+            </summary>
+            <param name="planePosition">Position of plane</param>
+            <param name="planeState">Plane state</param>
+            <param name="time">Time of plane</param>
+            <param name="airport"></param>
+        </member>
+        <member name="M:FlyPlassLibrary.Plane.UpdatePlane(FlyPlassLibrary.PlanePosition,FlyPlassLibrary.planeState,System.DateTime,FlyPlassLibrary.Airport)">
+            <summary>
+            Updated version of plane
+            </summary>
+            <param name="newPlanePosition">New position of plane</param>
+            <param name="newPlaneState">New plane state</param>
+            <param name="time">New time of plane</param>
+            <param name="airport"></param>
+        </member>
+        <member name="T:FlyPlassLibrary.PlaneHistory">
+            <summary>
+            History of planes
+            </summary>
+        </member>
+        <member name="T:FlyPlassLibrary.Runway">
+            <summary>
+            Information of a runway
+            </summary>
+        </member>
+        <member name="P:FlyPlassLibrary.Runway.RunwayNumber">
+            <summary>
+            Number of the runway
+            </summary>
+        </member>
+        <member name="M:FlyPlassLibrary.Runway.#ctor(System.Int32)">
+            <summary>
+            Number of the runway
+            </summary>
+            <param name="runwayNumber">Number of runway</param>
+        </member>
+        <member name="M:FlyPlassLibrary.Runway.ConnectTaxiway(FlyPlassLibrary.Taxiway)">
+            <summary>
+            Adding taxiway
+            </summary>
+            <param name="taxiway">Information of taxiway</param>
+        </member>
+        <member name="M:FlyPlassLibrary.Runway.GetConnectedTaxiways">
+            <summary>
+            Returns connected taxiways
+            </summary>
+        </member>
+        <member name="T:FlyPlassLibrary.ScheduleType">
+            <summary>
+            Information of a flight`s schedule
+            </summary>
+            <param name="ScheduleType">State of plane, readyForTakeOff, flying, loadingPassangers, unloadingPassangers, idle, taxiing</param>
+        </member>
+        <member name="T:FlyPlassLibrary.Taxiway">
+            <summary>
+            Information of a taxiway
+            </summary>
+            <param name="taxiwayNumber">Number of taxiway</param>
+            <param name="connectedGates">Shows which gate is connected to a specific gate</param>
+        </member>
+        <member name="M:FlyPlassLibrary.Taxiway.ConnectGate(FlyPlassLibrary.Gate)">
+            <summary>
+            Added gates to gate
+            </summary>
+            <param name="gate"></param>
+        </member>
+    </members>
+</doc>
